@@ -7,6 +7,9 @@
 body {
     height: 100vh;
     font-family: 'Be Vietnam Pro';
+    color: #121826;
+    font-weight: 400;
+    font-size: 1rem;
 }
 
 header{
@@ -21,6 +24,7 @@ header{
 }
 header div{
     width: 40%;
+    color: #4D5562;
 }
 h1{
     font-weight: 700;
@@ -29,11 +33,58 @@ h1{
     margin: 10px;
 
 }
-header div p{
+
+table {
+    width: 90%;
+    margin: 50px auto;
+    overflow: hidden;
+    border-spacing: 0;
+}
+
+th{
+    min-width: 150px;
+    padding: 50px 20px;
+}
+.type{
+    font-weight: 500;
+    color: #263FA9;
+    font-size: 1rem;
+
+}
+.price{
+    font-size: 4rem;
+    margin: 5px 0;
+}
+.time{
+    font-weight: 500;
     color: #4D5562;
-    font-weight: 400;
     font-size: 1rem;
 }
+
+.popular{
+    background-color: #121826;
+    color: #F8FAFC;
+}
+thead .popular{
+    border-radius: 1rem 1rem 0 0;
+}
+.popular .type{
+    display: inline-block;
+    color: #F8FAFC;
+    background-color: #263FA9;
+    padding: 2px 10px;
+    border-radius: 10px;
+}
+.popular .time{
+    color: #F8FAFC;
+}
+
+td{
+    text-align: center;
+    border-bottom: 1px solid #4D556233;
+    padding: 20px;
+}
+
 
 
 
@@ -49,9 +100,7 @@ header div p{
     font-size: 14px;
     text-align: center;
     color: rgb(55, 65, 81);
-    position: fixed;
-    bottom: 0;
-    left: 0;
+
     width: 100%;
 }
 
