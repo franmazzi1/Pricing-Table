@@ -99,10 +99,55 @@ tr:nth-child(8) .info {
     border-bottom-left-radius: 1rem;
 }
 
+.started td{
+    border-bottom: none;
+    padding: 30px;
+}
+td a{
+    text-decoration: none;
+    color:#263FA9;
+    font-weight: 600;
+}
+.started img{
+    position: relative;
+    bottom: -0.4rem;
+}
+.started .popular {
+    background-color: #7C4F1E;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.started .popular a{
+    color: #F8FAFC;
+}
+a:hover{
+    cursor:pointer;
+}
 
 
 
 
+
+
+
+@media (max-width: 1024px) {
+    header div{
+        width: 50%;
+    }
+    th:nth-child(2), td:nth-child(2) {
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
+    header div {
+        width: 90%;
+    }
+    th:nth-child(2), td:nth-child(2),
+    th:nth-child(3), td:nth-child(3) {
+        display: none;
+    }
+}
 
 
 
