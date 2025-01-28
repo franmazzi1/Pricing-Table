@@ -36,6 +36,7 @@ h1{
 
 table {
     width: 90%;
+    max-width: 1200px;
     margin: 50px auto;
     overflow: hidden;
     border-spacing: 0;
@@ -82,8 +83,23 @@ thead .popular{
 td{
     text-align: center;
     border-bottom: 1px solid #4D556233;
-    padding: 20px;
+    padding: 10px;
 }
+
+.info{
+    background-color: #F8FAFC;
+    text-align: left;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+tr:first-child .info {
+    border-top-left-radius: 1rem;
+}
+tr:nth-child(8) .info {
+    border-bottom-left-radius: 1rem;
+}
+
+
 
 
 
